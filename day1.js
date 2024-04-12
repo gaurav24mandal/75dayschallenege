@@ -65,3 +65,25 @@ function birthdayCakeCandles(candles) {
      })
      return count
 }
+
+/**
+ * https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
+ * 
+ */
+
+function gradingStudents(grades) {
+    const res = grades.map(grade => {
+        if (grade < 38) {
+            return grade; // If the grade is less than 38, no rounding occurs
+        } else {
+            if ((grade + 2) % 5 === 0) {
+                return grade + 2; // Round up by 2 if the remainder is 0 when adding 2
+            } else if ((grade + 1) % 5 === 0) {
+                return grade + 1; // Round up by 1 if the remainder is 0 when adding 1
+            } else {
+                return grade; // Otherwise, no rounding occurs
+            }
+        }
+    });
+    return res
+}
