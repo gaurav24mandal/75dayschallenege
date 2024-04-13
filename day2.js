@@ -38,4 +38,26 @@ function kangaroo(x1, v1, x2, v2) {
        return "NO"
        }
    }
- 
+
+   /**
+    * https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
+    */
+   function breakingRecords(scores) {
+    // Write your code here
+    let  highestScore  = scores[0];
+    let lowestScore = scores[0];
+    let highCount = 0 ;
+    let  lowCount = 0;
+    
+    scores.forEach(score => {
+        if (score > highestScore) {
+            highCount++;
+            highestScore = score;
+        } else if (score < lowestScore) {
+            lowCount++;
+            lowestScore = score;
+        }
+    });
+      return[ highCount, lowCount]
+
+}
