@@ -14,3 +14,20 @@ function divisibleSumPairs(n, k, ar) {
     }
     return count
 }
+/**
+ * https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true
+ */
+function birthday(s, d, m) {
+    let count = 0;
+    // Write your code here
+    for (let i = 0; i <= s.length - m; i++) {
+        let sum = s[i];
+        for (let j = i + 1; j < i + m; j++) {
+            sum += s[j];
+        }
+        if (sum === d) {
+            count++;
+        }
+    }
+    return count;
+}
