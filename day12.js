@@ -14,3 +14,4 @@ function power(x,n){
 }
 
 console.log(power(2,4));
+
