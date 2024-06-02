@@ -10,6 +10,10 @@
     height: 86px;
     border-bottom: 1px solid rgb(238, 238, 238);
     align-items: center;
+    position: fixed ;
+    left: 0;
+    right: 0;
+    top: 0;
 }  
 .feature-item{
     color: rgb(0, 0, 0);
@@ -46,4 +50,31 @@ a{
     -webkit-box-align: center;
     align-items: center;
     display: flex
+}
+.banner-Pan{
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+  
+    
+}
+.wrapper{
+    margin-top: 130px;
+    
+}
+.food-category-container{
+    display: grid;
+    grid-template-columns: repeat(10,128px);
+    justify-content: center;
+}
+.food-item{
+   
+    cursor: pointer;
 }
