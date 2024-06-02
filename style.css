@@ -16,3 +16,8 @@
 .about-us{
     width: 100%;
 }
+.footer{
+    height: 250px;
+    background-color: gray;
+    font-size: 20px;
+}

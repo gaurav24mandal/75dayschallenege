@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
 </head>
 <body>
     <header>
@@ -28,10 +30,43 @@
                 Contact-us
             </h1>
             <form >
-       
+                <div >
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter first name" required>
+                </div>
+                <div >
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter last name" required>
+                </div>
+                <div >
+                    <label for="DOB">DOB</label>
+                    <input type="date" name="DOB" id="DOB" placeholder="Enter DOB" required>
+                </div>
+                <div >
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="Enter Email" required>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="1" max="20" value="20">
+                </div>
+                <div >
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="gender" required >Male
+                    <input type="radio" name="gender" id="gender" >Female
+                    <input type="radio" name="gender" id="gender" >Other
+                 </div>
+                 <div >
+                    <label for="courses">Select Courses</label>
+                    <input type="checkbox" name="Btech" id="courses" required >Btech
+                    <input type="checkbox" name="Bsc" id="courses" >Bsc
+                    <input type="checkbox" name="Bcom" id="courses" required>Bcom
+                 </div>
+                 <input type="submit" >
             </form>
+           
         </section>
-        <footer>
+        <footer class="footer">
             @inc 2024
         </footer>
     </main>

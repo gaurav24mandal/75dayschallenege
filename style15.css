@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: "Roboto", sans-serif;
+  
+  }
+  .boxes{
+    box-sizing: border-box;
+    background-color: aqua;
+     height: 100vh;
+     display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+    gap: 10px 20px;
+ /* allign content only works  when the flex wrap is  wrap and  if theat  is  wrap the alling content  wont wrork  */
+  align-items: center;
+  justify-content: space-around ;
+  }
+  .box{
+    background-color:blue;
+    height: 100px;
+    width: 200px;
+    margin: 40px 10px;
+    flex-shrink: 1;
+   
+  }
