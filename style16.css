@@ -78,3 +78,23 @@ a{
    
     cursor: pointer;
 }
+.dariy-products-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 3000px;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+       
+        
+  
+    
+}
+.dairy-products{
+    display: flex;
+    
+}
+.food-Intro{
+    align-self:self-start; 
+}
