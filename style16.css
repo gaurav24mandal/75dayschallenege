@@ -78,23 +78,25 @@ a{
    
     cursor: pointer;
 }
-.dariy-products-container{
+/* .dariy-products-container{
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    max-width: 3000px;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
+    flex-direction: column;
        
         
   
     
-}
-.dairy-products{
+} */
+/* .dairy-products{
     display: flex;
-    
+    flex-direction: column;
 }
-.food-Intro{
-    align-self:self-start; 
-}
+#Dairy-product-time{
+    width: 100%;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.15s;
+    opacity: 1;
+    height: 100%;
+} */
